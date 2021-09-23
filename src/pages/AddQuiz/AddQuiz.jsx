@@ -21,7 +21,7 @@ const AddQuiz = () => {
   const history = useHistory();
   return (
     <>
-      <h1 className={styles["header"]}>Add Quiz</h1>
+      <h1 className={"header"}>Add Quiz</h1>
 
       <form
         onSubmit={(e) => {

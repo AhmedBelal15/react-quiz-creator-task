@@ -10,3 +10,9 @@ body {
     rgba(130, 110, 227, 1) 70%
   );
 }
+
+.header {
+  color: hsl(0, 0%, 100%);
+  margin: 1rem;
+  text-shadow: 2px 2px hsl(0, 0%, 50%);
+}

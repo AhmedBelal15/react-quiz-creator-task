@@ -1,0 +1,11 @@
+.card-container{
+    background-color: white;
+    width: 35rem;
+    padding: 1rem;
+    border-radius: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
