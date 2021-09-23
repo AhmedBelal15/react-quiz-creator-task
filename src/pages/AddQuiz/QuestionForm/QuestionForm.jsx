@@ -83,7 +83,6 @@ const QuestionForm = ({ values, index, setQuestions }) => {
             <FormElement>
               <label htmlFor={`ans${index + 1}`}>Is the right answer?</label>
               <Select
-                // value={values.is_true}
                 onChange={(e) => handleAnswerChange(e, index)}
                 name="is_true"
                 options={qOptions}

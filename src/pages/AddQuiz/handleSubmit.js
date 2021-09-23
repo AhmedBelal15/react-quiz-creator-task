@@ -9,7 +9,6 @@ const handleSubmit = async (e, quizData, questions, history) => {
   for (let i = 0; i < questions.length; i++) {
     let count = 0;
     for (let j = 0; j < questions[i].answers.length; j++) {
-      console.log(questions[i].answers[j]);
       if(questions[i].answers[j].is_true === "true"){
         count+=1
       }
