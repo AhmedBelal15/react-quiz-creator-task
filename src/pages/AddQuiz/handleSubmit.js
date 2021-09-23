@@ -9,6 +9,7 @@ const handleSubmit = async (e, quizData, questions, history) => {
   for (let i = 0; i < questions.length; i++) {
     let count = 0;
     for (let j = 0; j < questions[i].answers.length; j++) {
+      console.log(questions[i].answers[j]);
       if(questions[i].answers[j].is_true === "true"){
         count+=1
       }
@@ -17,7 +18,7 @@ const handleSubmit = async (e, quizData, questions, history) => {
       return alert(`Question ${i+1} has more than one correct answer`)
     }
     if(count === 0) {
-      alert(`Question ${i+1} has no correct answers!`)
+      return alert(`Question ${i+1} has no correct answers!`)
     }
   }
   

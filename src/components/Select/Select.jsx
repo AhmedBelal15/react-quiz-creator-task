@@ -8,7 +8,7 @@ const Select = ({ options, width, height, ...props }) => {
       {...props}
     >
         {options.map(option =>{
-            return <option key={option.value} value={option.value}>{option.text}</option>
+            return <option key={option.value} value={option.value} selected={option.value === false}>{option.text}</option>
         })}
     </select>
   );
